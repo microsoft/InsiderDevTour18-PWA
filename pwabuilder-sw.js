@@ -1,0 +1,1 @@
+// Copy the code of the "Cache-first network" Service Worker from PWA Builder HERE

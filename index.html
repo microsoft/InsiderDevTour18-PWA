@@ -3,49 +3,19 @@
   <head>
     <script>
          if(navigator.serviceWorker){
-
-Notification.requestPermission().then(function(result) {
-  console.log('premission request result', result);
-});
-
-     //   Register the ServiceWorker
-navigator.serviceWorker.register('service-worker.js', {
-  scope: '.'
-}).then(function(registration) {
-                console.log('The service worker has been registered ', registration);
-});
-
-
-
-// Listen for claiming of our ServiceWorker
-navigator.serviceWorker.addEventListener('controllerchange', function(event) {
-  // Listen for changes in the state of our ServiceWorker
-  navigator.serviceWorker.controller.addEventListener('statechange', function() {
-    // If the ServiceWorker becomes "activated", let the user know they can go offline!
-    if (this.state === 'activated') {
-        alert('you may go offline')
-        //      document.getElementById('offlineNotification').classList.remove('hidden');
-    }
-  });
-});
-
-
-
+             // Copy the registration code from PWA Builder HERE
          }
-        
-
-
-</script>
+    </script>
     <meta charset="UTF-8" />
     <title>South Ridge Video</title>
-   <link href="/manifest.json" rel="manifest" />
-<link href="//db.onlinewebfonts.com/c/88bdc70ec292cc29451932f9875b378a?family=SegoeUIMonoW01-Regular" rel="stylesheet" type="text/css"/>        <link href="reset.css" rel="stylesheet" type="text/css"  />
+    <link href="/manifest.json" rel="manifest" />
+    <link href="//db.onlinewebfonts.com/c/88bdc70ec292cc29451932f9875b378a?family=SegoeUIMonoW01-Regular" rel="stylesheet" type="text/css"/>        <link href="reset.css" rel="stylesheet" type="text/css"  />
     <link href="app.css" rel="stylesheet" type="text/css"  />
     <link rel="stylesheet" type="text/css" href="style.css">
     <script>
       if(window.Windows && window.Windows.UI && window.Windows.UI.ViewManagement){
-      var applicationView = Windows.UI.ViewManagement.ApplicationView.getForCurrentView();
- applicationView.setDesiredBoundsMode(Windows.UI.ViewManagement.ApplicationViewBoundsMode.useCoreWindow);
+        var applicationView = Windows.UI.ViewManagement.ApplicationView.getForCurrentView();
+        applicationView.setDesiredBoundsMode(Windows.UI.ViewManagement.ApplicationViewBoundsMode.useCoreWindow);
       }
     </script>
     <script src="build/react.js"></script>
