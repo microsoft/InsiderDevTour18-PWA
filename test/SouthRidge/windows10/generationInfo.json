@@ -1,0 +1,10 @@
+{
+    "generationTool": "manifoldjs",
+    "generationToolVersion": "0.6.1",
+    "platformId": "windows10",
+    "platformPackage": "manifoldjs-windows10",
+    "platformVersion": "0.1.3",
+    "generatedFrom": "CLI",
+    "generationDate": "2016-09-09 01:56:35 Z",
+    "generatedURL": "http://southridge.azurewebsites.net/manifest.json"
+}
