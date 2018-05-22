@@ -7,7 +7,7 @@
 - **Launch index.html in MS Edge** to check the site is working as expected
 
 # Demos Script
-## 1 - w3C Manifest
+## 1 - W3C Manifest
 - Navigate to https://southridge.azurewebsites.net/ and show quickly you can play some videos
 - Now navigate to https://www.pwabuilder.com and enter the URL: https://southridge.azurewebsites.net/ into the first textbox
 - Click **"Get Started"**
