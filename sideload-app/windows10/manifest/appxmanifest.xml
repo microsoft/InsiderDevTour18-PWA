@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build" IgnorableNamespaces="uap mp build"> 
+	<Identity Name="INSERT-YOUR-PACKAGE-IDENTITY-NAME-HERE" Publisher="CN=INSERT-YOUR-PACKAGE-IDENTITY-PUBLISHER-HERE" Version="1.0.0.0" ProcessorArchitecture="neutral"/> 
+	<mp:PhoneIdentity PhoneProductId="210b02f7-5228-e25b-a3a1-0aa813060008" PhonePublisherId="00000000-0000-0000-0000-000000000000"/> 
+
+	<build:Metadata>
+		<build:Item Name="GenerationTool" Version="pwabuilder-api"/>
+		<build:Item Name="GenerationToolVersion" Version="2.0.1-rc.0"/>
+    <build:Item Name="PlatformId" Value="windows10"/>
+    <build:Item Name="PlatformPackage" Value="pwabuilder-windows10"/>
+    <build:Item Name="PlatformVersion" Version="2.0.3-rc.1"/>
+		<build:Item Name="GeneratedFrom" Value="Website Wizard"/>
+		<build:Item Name="GenerationDate" Value="2018-05-23 16:42:25 Z"/>
+		<build:Item Name="GeneratedURL" Value="http://southridge.azurewebsites.net/manifest.json"/>
+	</build:Metadata>
+
+	<Properties> 
+		<DisplayName>SouthRidge</DisplayName> 
+    <PublisherDisplayName>INSERT-YOUR-PACKAGE-PROPERTIES-PUBLISHERDISPLAYNAME-HERE</PublisherDisplayName>
+    <Logo>images\StoreLogo.png</Logo> 
+	</Properties> 
+
+	<Dependencies> 
+		<TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.10240.0" MaxVersionTested="10.0.10240.0"/> 
+	</Dependencies> 
+
+	<Resources>
+	<Resource Language="en-us"/> 
+	 </Resources> 
+
+	<Applications> 
+		<Application Id="SouthRidge" StartPage="https://southridge.azurewebsites.net/"> 
+			<uap:VisualElements DisplayName="SouthRidge" Square150x150Logo="images\Square150x150Logo.png" Square44x44Logo="images\Square44x44Logo.png" Description="South Ridge Video" BackgroundColor="#2F404B"> 
+        
+				<uap:SplashScreen Image="images\SplashScreen.png"/> 
+				 
+				<uap:InitialRotationPreference> 
+					<uap:Rotation Preference="landscape"/> 
+				</uap:InitialRotationPreference> 
+			</uap:VisualElements> 
+			<uap:ApplicationContentUriRules>
+				<uap:Rule Type="include" WindowsRuntimeAccess="none" Match="https://*"/>
+				<uap:Rule Type="include" WindowsRuntimeAccess="none" Match="http://*"/>
+				
+				
+				<uap:Rule Type="include" WindowsRuntimeAccess="all" Match="https://southridge.azurewebsites.net/"/>
+			</uap:ApplicationContentUriRules>
+		</Application> 
+	</Applications> 
+
+	<Capabilities>
+		<Capability Name="internetClient"/>
+		
+	</Capabilities>
+
+</Package>

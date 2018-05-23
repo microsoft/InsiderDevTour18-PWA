@@ -1,0 +1,83 @@
+{
+    "start_url": "https://southridge.azurewebsites.net/",
+    "short_name": "SouthRidge",
+    "display": "fullscreen",
+    "orientation": "landscape",
+    "name": "South Ridge Video",
+    "scope": "/",
+    "theme_color": "#2F404B",
+    "icons": [
+        {
+            "src": "images/windows-smallsquare-24-24.png",
+            "sizes": "24x24"
+        },
+        {
+            "src": "images/windows-smallsquare-30-30.png",
+            "sizes": "30x30"
+        },
+        {
+            "src": "images/windows-smallsquare-42-42.png",
+            "sizes": "42x42"
+        },
+        {
+            "src": "images/windows-smallsquare-54-54.png",
+            "sizes": "54x54"
+        },
+        {
+            "src": "images/windows-splashscreen-1116-540.png",
+            "sizes": "1116x540"
+        },
+        {
+            "src": "images/windows-splashscreen-868-420.png",
+            "sizes": "868x420"
+        },
+        {
+            "src": "images/windows-splashscreen-620-300.png",
+            "sizes": "620x300"
+        },
+        {
+            "src": "images/windows-squarelogo-270-270.png",
+            "sizes": "270x270"
+        },
+        {
+            "src": "images/windows-squarelogo-210-210.png",
+            "sizes": "210x210"
+        },
+        {
+            "src": "images/windows-squarelogo-150-150.png",
+            "sizes": "150x150"
+        },
+        {
+            "src": "images/windows-squarelogo-120-120.png",
+            "sizes": "120x120"
+        },
+        {
+            "src": "images/windows-storelogo-90-90.png",
+            "sizes": "90x90"
+        },
+        {
+            "src": "images/windows-storelogo-70-70.png",
+            "sizes": "70x70"
+        },
+        {
+            "src": "images/windows-storelogo-50-50.png",
+            "sizes": "50x50"
+        },
+        {
+            "src": "images/windowsphone-appicon-44-44.png",
+            "sizes": "44x44"
+        },
+        {
+            "src": "images/windowsphone-storelogo-70-70.png",
+            "sizes": "70x70"
+        },
+        {
+            "src": "images/android-launchericon-512-512.png",
+            "sizes": "512x512"
+        },
+        {
+            "src": "images/ios-appicon-1024-1024.png",
+            "sizes": "1024x1024"
+        }
+    ]
+}
