@@ -1,9 +1,9 @@
 # Setup
-- **Clone or download** this repo on your local harddrive
+- **Clone or download** this repo on your local hard drive
 - Install Visual Studio 2017: https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Community&rel=15 
 - Launch Visual Studio 2017
 - Go to **"File" -> "Open" -> "Web Site..."** and navigate to your folder where the repo has been copied
-- OR host the the file in node.js, IIS or your favorite way to host a webserver
+- OR host the the file in node.js, IIS or your favorite way to host a web server
 - **Launch index.html in MS Edge** to check the site is working as expected
 
 # Demos Script
@@ -11,7 +11,7 @@
 - Navigate to https://southridge.azurewebsites.net/ and show quickly you can play some videos
 - Now navigate to https://www.pwabuilder.com and enter the URL: https://southridge.azurewebsites.net/ into the first textbox
 - Click **"Get Started"**
-- Show it generates the **W3C Manifest** for you and that you can either download ou copy it to include in your project
+- Show it generates the **W3C Manifest** for you and that you can either download or copy it to include in your project
 - **Add a new description**: "the best video site on the web" and show it has updated dynamically the manifest on the right
 
 ## 2 - Service Worker
