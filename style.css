@@ -21,10 +21,10 @@ video.scale2{
   transform:scale(1.5);
 }
 
-@font-face {
+/* @font-face {
     font-family: 'SegoeMDL2';
     src: url("segmdl2.ttf") format("truetype");
-}
+} */
 
 #videoContainer .controls {
 	background: #000;
